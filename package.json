@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "axios": "^1.7.2",
-    "react-icons": "^5.2.1"
+    "fade": "^0.2.0",
+    "react-icons": "^5.2.1",
+    "spinner": "^0.3.4"
   }
 }

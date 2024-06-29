@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { BsSearch } from 'react-icons/bs'
-import weather from './components/weather'
+import weather from './component/weather.jsx'
 import spinner from '../../public/images/Interwind-1s-200px.gif'
 import './fade.css'
 
