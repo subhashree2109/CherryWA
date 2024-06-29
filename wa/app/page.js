@@ -4,9 +4,6 @@ import Head from 'next/head'
 import axios from 'axios'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { BsSearch } from 'react-icons/bs'
-import weather from './components/weather'
-import spinner from '../../public/images/Interwind-1s-200px.gif'
 import './fade.css'
 
 export default function Home() {
@@ -50,9 +47,6 @@ export default function Home() {
     
     return (
       <>
-      
-      
-    
         <main>
           <div>
             <Head>
@@ -74,7 +68,7 @@ export default function Home() {
                 <div>
                   <input onChange={(e)=> setCity(e.target.value)} className="bg-transparent border-none text-white focus:outline-none text-2xl placeholder:text-white" type="text" placeholder='Enter city'/>
                 </div>
-                <button onClick={fetchWeather}><BsSearch size={20}/></button>
+                <button onClick={fetchWeather}></button>
               </form>
             </div>
               {/*Data display */}
